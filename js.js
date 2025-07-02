@@ -53,7 +53,7 @@ document.getElementById("btn").addEventListener("click", getNum);
     if (event.target.closest('.main')) return;
 
     // Otherwise, go to the URL you want
-    window.location.href = 'https://example.com/your-page';
+    window.location.href = 'https://91appe.com/#/';
   });
  } else {
    alert("Device Can Be HarmFul");
