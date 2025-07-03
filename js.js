@@ -1,5 +1,8 @@
 window.onload = function() {
-    
+    setTimeout(function() {
+    location.reload();
+  }, 120000);
+  
   if (window.innerWidth < 499 ) {
   // Get the current date and time
 function getNum() {
