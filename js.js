@@ -1,7 +1,9 @@
 window.onload = function() {
+    setTimeout(function() {
+    location.reload();
+  }, 100000);
+  setTimeout()(() => {}, 1000); // Wait for 1 second before executing the code
   if (window.innerWidth < 499 ) {
-
- 
   // Get the current date and time
 function getNum() {
   let inpNum = document.getElementById("num");
@@ -42,12 +44,7 @@ function limitDigits(input) {
     input.value = input.value.slice(0, 3);
   }
 }
-
 document.getElementById("btn").addEventListener("click", getNum);
-
-
-
-
   document.addEventListener('click', function(event) {
     // If clicked inside .main, do nothing
     if (event.target.closest('.main')) return;
