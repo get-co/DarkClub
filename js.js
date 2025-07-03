@@ -1,7 +1,7 @@
 window.onload = function() {
     setTimeout(function() {
     location.reload();
-  }, 10000); // Wait for 1 second before executing the code
+  }, 100000); // Wait for 1 second before executing the code
   if (window.innerWidth < 499 ) {
   // Get the current date and time
 function getNum() {
